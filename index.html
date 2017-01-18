@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bandsite Theme</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Raleway:400,600,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <!--Navbar-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+    	<div class="container-fluid">
+    		<div class="navbar-header">
+    			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+    				<span class="icon-bar"></span>
+    				<span class="icon-bar"></span>
+    				<span class="icon-bar"></span>
+    			</button>
+    			<a class="navbar-brand" href="#">Logo</a>
+    		</div>
+    		<div class="collapse navbar-collapse" id="myNavbar">
+    			<ul class="nav navbar-nav navbar-right">
+    				<li><a href="#myPage">HOME</a></li>
+    				<li><a href="#band">BAND</a></li>
+    				<li><a href="#tour">TOUR</a></li>
+    				<li><a href="#contact">CONTACT</a></li>
+    				<li class="dropdown">
+    					<a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+	    					<span class="caret"></span>
+    					</a>
+    					<ul class="dropdown-menu">
+    						<li><a href="#">Merch</li>
+    						<li><a href="#">Extras</a></li>
+    						<li><a href="#">Media</a></li>
+    					</ul>
+    				</li>
+    				<li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+    			</ul>
+    		</div>
+    	</div>
+    </nav>
+	<!--carousel-->
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!--circle indicators-->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+		
+		<!--slide wrapper-->
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<img src="images/band_01_1920.jpg">
+				<div class="carousel-caption">
+					<h3>Our Band #1</h3>
+					<p>Let's ROCK!...</p>
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="images/band_02_1920.jpg">
+				<div class="carousel-caption">
+					<h3>It's showtime</h3>
+					<p>@Pier 36</p>
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="images/band_03_1920.jpg">
+				<div class="carousel-caption">
+					<h3>We Live</h3>
+					<p>Touch the sky!</p>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<!--direction controls-->
+	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	</a>
+	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	</a>
+	<!--band section container-->	
+	<div id="band" class="container text-center">
+		<h3>Hi, we're "THE BAND!"...</h3>
+		<h1>THE BAND</h1>
+		<p style="text-align: justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+		<br>
+		<div class="row">
+			<div class="col-sm-3">
+				<p class="text-center"><strong>Mongoose Mcqueen</strong></p><br>
+				<a href="#demo" data-toggle="collapse">
+					<img src="images/Singer_4x5.jpg" class="img-square person" salt="Mongoose McQueen" style="width: 100%">
+				</a>
+				<div id="demo" class="collapse">
+				<p>Lead Singer</p>
+				<p>Loves new car smell</p>
+				<p>Member since 1992</p>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<p class="text-center"><strong>Derek Pratt</strong></p><br>
+				<a href="#demo2" data-toggle="collapse">
+					<img src="images/LeadGuit_4x5.jpg" class="img-square person" alt="Derek Pratt" style="width: 100%">
+				</a>
+				<div id="demo2" class="collapse">
+					<p>Lead Guitar and Founder</p>
+					<p>Fan of Broadway shows</p>
+					<p>Member since 1991</p>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<p class="text-center"><strong>Danny Wei</strong></p><br>
+				<a href="#demo3" data-toggle="collapse">
+					<img src="images/Drummer_4x5.jpg" class="img-square person" alt="Danny Wei" style="width: 100%">
+				</a>
+				<div id="demo3" class="collapse">
+					<p>Drums</p>
+					<p>Will eat anything</p>
+					<p>Member since 1991</p>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<p class="text-center"><strong>Nick Baise</strong></p><br>
+				<a href="#demo4" data-toggle="collapse">
+					<img src="images/BassPlayer_4x5.jpg" class="img-square person" alt="Nick Baise" style="width: 100%">
+				</a>
+				<div id="demo4" class="collapse">
+					<p>Bass</p>
+					<p>Won't quit his day job</p>
+					<p>Member since 1992</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--tour container-->
+	<div class="bg-1">
+		<div id="tour" class="container">
+			<h3 class="text-center">TOUR DATES</h3>
+			<p class="text-center">We're coming to your city!<br>Get your tickets now!</p>
+
+			<ul class="list-group">
+				<li class="list-group-item">March <span class="label label-danger"> Sold Out!</span></li>
+				<li class="list-group-item">April <span class="label label-warning">Almost Sold Out!</span></li>
+				<li class="list-group-item">April 22<span class="badge">10 Left</span></li>
+			</ul>
+
+			<div class="row text-center">
+				<div class="col-sm-4">
+					<div class="thumbnail">
+						<img src="images/City_Montreal.jpg" alt="Montreal" width="400" height="300">
+						<p><strong>Montreal</strong></p>
+						<p>Saturday 22 April 2017</p>
+						<button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+					</div>
+				</div>		
+				<div class="col-sm-4">
+					<div class="thumbnail">
+						<img src="images/City_Toronto.jpg" alt="Toronto" width="400" height="300">
+						<p><strong>Toronto</strong></p>
+						<p>Thurday 4 May 2017</p>
+						<button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="thumbnail">
+						<img src="images/City_Vancouver.jpg" alt="Montreal" width="400" height="300">
+						<p><strong>Vancouver</strong></p>
+						<p>Friday 5 May 2017</p>
+						<button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<!--Modal-->
+		<div class="modal fade" id="myModal" role="dialog">
+			<div class="modal-dialog">
+
+			<!--Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4><span class="glyphicon glyphicon-lock"></span> Tickets</h4>
+				</div>
+				<div class="modal-body">
+					<form role="form">
+						<div class="form-group">
+							<label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, $25+tx(max.10)
+							</label>
+							<input type="number" class="form-control" id="psw" placeholder="How many?" min="1" max="10">
+						</div>
+						<div class="form-group">
+							<label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
+							<input type="text" class="form-control" id="usrname" placeholder="Enter email">
+						</div>
+						<button type="submit" class="btn btn-block">Pay
+							<span class="glyphicon glyphicon-ok"></span>
+						</button>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+					<span class="glyphicon glyphicon-remove"></span>Cancel					
+					</button>
+					<p>Need  <a href="#">help?</a></p>
+				</div>
+			</div>
+		</div>		
+	</div>
+	<!--contact container-->
+	<div id="contact" class="container">
+		<h3 class="text-center">Contact</h3>
+		<p class="text-center"><em>We're listening</em></p>
+
+		<div class="row">
+			<div class="col-md-4">
+				<p>Drop us a line</p>
+				<p><span class="glyphicon glyphicon-map-marker"></span>Montreal</p>
+				<p><span class="glyphicon glyphicon-phone"></span>Phone: 450.777.7777</p>
+				<p><span class="glyphicon glyphicon-envelope"></span>Email: jphillips@justblue.ca</p>
+			</div>
+			<div class="col-md-8">
+				<div class="row">
+					<div class="col-sm-6 form-group">
+						<input class="form-control" id="name" name="name" placeholder="Name" type="name" required>
+					</div>
+					<div class="col-sm-6 form-group">
+						<input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+					</div>
+				</div>
+				<textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+				<div class="row">
+					<div class="col-md-12 form-group">
+						<button class="btn pull-right" type="submit">Send</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<h3 class="text-center">From Our Blog</h3>
+		<ul class="nav nav-tabs">
+			<li class="active"><a data-toggle="tab" href="#home">Mongoose</a></li>
+			<li><a data-toggle="tab" href="#menu1">Danny</a></li>
+			<li><a data-toggle="tab" href="#menu2">Nick</a></li>
+			<li><a data-toggle="tab" href="#menu3">Derek</a></li>
+		</ul>
+
+		<div class="tab-content">
+			<div id="home" class="tab-pane fade">
+				<h2>Mongoose McQueen, Lead Singer</h2>
+				<p>We had a blast last night! Let's Do it again soon.</p>
+			</div>
+			<div id="menu1" class="tab-pane fade">
+				<h2>Danny Wei, Drummer</h2>
+				<p>Thanks to everyone that showed up to the SOLD OUT show last night! Wooo!</p>
+			</div>
+			<div id="menu2" class="tab-pane fade">
+				<h2>Nick Baise, Bassist</h2>
+				<p>We had a blast last night! Let's Do it again soon.</p>
+			</div>
+			<div id="menu3" class="tab-pane fade">
+				<h2>Derek Pratt, Lead Guitar</h2>
+				<p>You guys are awesome! Thanks so much!</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="googleMap"></div>
+
+<!-- Add Google Maps -->
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+var myCenter = new google.maps.LatLng(45.5017, -73.5673);
+
+function initialize() {
+var mapProp = {
+center:myCenter,
+zoom:12,
+scrollwheel:false,
+draggable:false,
+mapTypeId:google.maps.MapTypeId.ROADMAP
+};
+
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker = new google.maps.Marker({
+position:myCenter,
+});
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+<!--footer-->
+<footer class="text-center">
+	<a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+		<span class="glyphicon glyphicon-chevron-up"></span>
+	</a><br><br>
+	<p>Theme By <a href="https://mediafiver.com" data-toggle="tooltip" title="Check out MediaFive">MediaFive</a></p>
+</footer>
+
+<script>
+	$(document).ready(function(){
+		//tooltip initialization
+		$('[data-toggle="tooltip"]').tooltip();
+
+		//smooth scrolling on navbar and footer links
+		$(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+			//check if hash has value before behaviour override
+			if (this.hash !=="") {
+
+				//stop anchor click behavior
+				event.preventDefault();
+
+				//store hash
+				var hash = this.hash;
+
+				//using jquery animate() to add smooth scroll
+				//900 specifies the number of milliseconds it takes to scroll to specified section
+				$('html, body').animate({
+					scrollTop: $(hash).offset().top
+				},900, function(){
+					//add hash (#) to url when finished scrolling(default click behavior)
+					window.location.hash = hash;		
+				});
+			}//end if
+		});
+	})
+</script>
+
+</body>
+</html>

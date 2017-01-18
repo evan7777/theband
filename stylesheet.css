@@ -1,0 +1,157 @@
+.container{
+	padding: 80px 120px;
+}
+
+.person{
+	border: 10px solid transparent;
+	margin-bottom: 25px;
+	width: 80%;
+	height: 80%;
+	opacity: 0.7;
+}
+
+.person:hover{
+	border-color: #CECECE;
+	opacity: 1;
+}
+
+.carousel-inner img{
+	-webkit-filter: grayscale(90%);
+	filter: grayscale(90%);/*make imgs lack and white*/
+	width: 100%;/*img width set to 100%*/
+	margin: auto;
+}
+
+.carousel-caption{
+	color: #FFFFFF !important;
+}
+
+@media (max-width: 600px){
+	.carousel-caption{
+		display:none;/*carousel text is hidden on screens smaller than 600px wide*/
+	}
+}
+
+.bg-1{
+	background: #2D2D30;
+	color: #9E9E9E;
+}
+
+.bg-1 h3{
+color: #FFFFFF;
+}
+/*.bg-1 p{
+	font-style: italic;
+}*/
+
+/*removed rounded borders*/
+.list-group-item:first-child{
+	border-top-right-radius:0;
+	border-top-left-radius:0;
+}
+
+.list-group-item:last-child{
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+/*removed thumbnail padding and border*/
+.thumbnail{
+	padding: 0 0 15px 0;
+	border: none;
+	border-radius: 0;
+}
+
+.thumbnail p{
+	margin-top: 15px;
+	color: #555555;
+}
+
+/*added padding and black color to buttons.Removed rounded borders*/
+.btn{
+	padding: 10px 20px;
+	background-color: #333333;
+	color: #f1f1f1;
+	border-radius: 0;
+	transition: .2;
+}
+
+.btn:hover, .btn:focus{
+	border: 1px solid #333333;
+	background-color: #FFFFFF;
+	color: #000;
+}
+
+.nav-tabs li a{
+	color: #777777;
+}
+
+#googleMap{
+	width: 100%;/*fill screen width*/
+	height: 400px;/*height set to 400 pixels*/
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);/*makes map black and white*/
+}
+
+/*dark bg with a little tranparency*/
+.navbar {
+	margin-bottom: 0;
+	background-color: #2D2D30;
+	border: 0;
+	font-size: 11px !important;
+	letter-spacing: 4px;
+	opacity: 0.9;
+}
+
+/*gray color to navbar links*/
+.navbar li a, .navbar .navbar-brand{
+	color: #d5d5d5 !important;
+}
+
+/*links turn white on hover*/
+.navbar-nav li a:hover {
+	color: #fff !important;
+}
+
+/*active link*/
+.navbar-nav li.active a {
+	color:#fff !important;
+	background-color: #29292c !important;
+}
+
+/*border color on collapsible button removed*/
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+}
+
+/*dropdown*/
+.open .dropdown-toggle {
+	color: #fff;
+	background-color: #555 !important;
+}
+
+/*dropdown links*/
+.dropdown-menu li a {
+	color: #000 !important;
+}
+
+/*turn links red on hover*/
+.dropdown-menu li a:hover {
+	background-color: red !important;
+}
+
+/*add a dark bg color to footer*/
+footer {
+	background-color: #2D2D30;
+	color: #f5f5f5;
+	padding: 32px;
+}
+
+footer a {
+	color: #f5f5f5;
+}
+
+footer a:hover {
+	color: #777;
+	text-decoration: none;
+}
